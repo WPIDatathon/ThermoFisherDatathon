@@ -7,22 +7,17 @@ JSON_FILE = 'data.json'
 json_dict = {} # dictionary to store the data
 
 if __name__ == "__main__":
-    researcher_names=["jenifer doudna",
-                        "Emmanuelle Charpentier",
-                        "feng zhang",
-                        "david liu",
-                        "martin jinek",
-                        "george church",
-                        "francisco mojica",
-                        "virginijus siksnys",
-                        "stanley qi",
-                        "matthew porteus"]
+    researcher_names=["andrew zydney",
+                        "DMF prazeres",
+                        "dirk grimm",
+                        "giorgio carta",
+                        "steven cramer"]
     for researcher_name in researcher_names:
         print("searching for researcher: ", researcher_name)
         search_query = scholarly.search_author(researcher_name)
         try: 
             author = scholarly.fill(next(search_query))
-            scholarly.pprint(author)
+            # scholarly.pprint(author)
             json_dict[researcher_name] = author
         except StopIteration:
             print("No results found for ", researcher_name)
