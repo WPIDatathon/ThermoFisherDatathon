@@ -1,0 +1,548 @@
+Omicron mutations enhance infectivity and reduce antibody
+neutralization of SARS-CoV-2 virus-like particles
+Abdullah M. Syeda,b, Alison Cilinga,b, Taha Y. Tahaa, Irene P. Chena,f, Mir M. Khalida, Bharath Sreekumara, Pei-Yi Chena,c, G. Renuka Kumara,
+Rahul Suryawanshia, Ines Silvad, Bilal Milbesd, Noah Kojimae, Victoria Hessd, Maria Shacreawd, Lauren Lopezd, Matthew Brobeckd, Fred Turnerd,
+Lee Spraggond, Takako Tabataa, Melanie Otta,f,g,1, and Jennifer A. Doudnaa,b,h,i,j,k,l,1
+Edited by Peter Sarnow, Stanford University School of Medicine, Stanford, CA; received January 12, 2022; accepted June 5, 2022
+The severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) Omicron variant
+contains extensive sequence changes relative to the earlier-arising B.1, B.1.1, and DeltaSARS-CoV-2 variants that have unknown effects on viral infectivity and response toexisting vaccines. Using SARS-CoV-2 virus-like particles (VLPs), we examined muta-
+tions in all four structural proteins and found that Omicron and Delta showed 4.6-fold
+higher luciferase delivery overall relative to the ancestral B.1 lineage, a property con-ferred mostly by enhancements in the S and N proteins, while mutations in M and E
+were mostly detrimental to assembly. Thirty-eight antisera samples from individuals
+vaccinated with P ﬁzer/BioNTech, Moderna, or Johnson & Johnson vaccines and con-
+valescent sera from unvaccinated COVID-19 survivors had 15-fold lower ef ﬁcacy to
+prevent cell transduction by VLPs containing the Omicron mutations relative to the
+ancestral B.1 spike protein. A third dose of P ﬁzer vaccine elicited substantially higher
+neutralization titers against Omicron, resulting in detectable neutralizing antibodies ineight out of eight subjects compared to one out of eight preboosting. Furthermore, the
+monoclonal antibody therapeutics casirivimab and imdevimab had robust neutraliza-
+tion activity against B.1 and Delta VLPs but no detectable neutralization of OmicronVLPs, while newly authorized bebtelovimab maintained robust neutralization across
+variants. Our results suggest that Omicron has similar assembly ef ﬁciency and cell entry
+compared to Delta and that its rapid spread is due mostly to reduced neutralization insera from previously vaccinated subjects. In addition, most currently available monoclo-
+nal antibodies will not be useful in treating Omicron-infected patients with the excep-
+tion of bebtelovimab.
+Omicron jSARS-CoV-2 jvirus-like particles
+Understanding the molecular determinants of severe acute respiratory syndrome coro-
+navirus 2 (SARS-CoV-2) viral ﬁtness is central to effective vaccine and therapeutic
+development. The emergence of viral variants including Delta and Omicron under-scores the need to assess both infectivity and antibody neutralization, but biosafety level3 handling requirements slow the pace of research on intact SARS-CoV-2. Althoughvesicular stomatitis virus and lentivirus pseudotyped with the SARS-CoV-2 spike (S)
+protein enable evaluation of S-mediated cell binding and entry via the ACE2 and
+TMPRSS2 receptors, they cannot determine effects of mutations outside the S gene(1, 2). To address these challenges, we developed SARS-CoV-2 virus-like particles(SC2-VLPs) comprising the S, N, M, and E structural proteins and a packaging signal-
+containing messenger RNA (mRNA) that together form RNA-loaded capsids capable
+of spike-dependent cell transduction (3). This system faithfully re ﬂects the impact of
+mutations in structural proteins that are observed in infections with virus isolates,enabling rapid testing of SARS-CoV-2 structural gene variants for their impact on both
+infection ef ﬁciency and antibody or antiserum neutralization.
+Results
+Using the SC2-VLP system, we ﬁrst generated a set of plasmid constructs encoding the
+S, N, M, and E structural proteins derived from the B.1, B.1.1, Delta, and OmicronSARS-CoV-2 viral variants ( SI Appendix , Table S1 ). We generated SC2-VLPs by
+cotransfecting packaging cells (293T cells) with three plasmids encoding these struc-
+tural proteins and a fourth plasmid encoding luciferase mRNA linked to a SARS-CoV-2
+packaging signal (3). Particles secreted from these packaging cells were ﬁltered and
+incubated with receiver 293T cells stably coexpressing ACE2 and TMPRSS2 (Fig. 1 A).
+To compare the effects of the different structural gene variants on infectivity, we usedthe structural genes from SARS-CoV-2 B.1 as the point of reference from which toSigniﬁcance
+Severe acute respiratory
+syndrome coronavirus 2 (SARS-CoV-2) Omicron contains extensive
+mutations and demonstrates
+enhanced transmission. We usedvirus-like particles to examine theassembly and neutralization ofOmicron and found that Omicronand Delta showed ∼4.6-fold higher
+assembly and cell entry relative tothe ancestral lineage. S and N
+protein mutations improved
+assembly and entry whileE mutations inhibited assembly.Omicron also escapesneutralization from antisera ofvaccinated or convalescentindividuals by ∼15-fold. Boosting
+increased neutralization titers
+against Omicron and restored
+neutralization in all subjectscompared to one out of eightbefore boosting. Our resultssuggest that the rapid spread ofOmicron is due to more ef ﬁcient
+a s s e m b l y ,c e l le n t r y ,a n de s c a p efrom antibody neutralization from
+existing vaccines or previous
+infection
+This article is a PNAS Direct Submission.
+Copyright © 2022 the Author(s). Published by PNAS.
+This open access article is distributed under Creative
+Commons Attribution-NonCommercial-NoDerivativesLicense 4.0 (CC BY-NC-ND) .
+1To whom correspondence may be addressed. Email:
+melanie.ott@gladstone.ucsf.edu or doudna@berkeley.edu.
+This article contains supporting information online at
+http://www.pnas.org/lookup/suppl/doi:10.1073/pnas.2200592119/-/DCSupplemental .
+Published July 19, 2022.
+PNAS 2022 Vol. 119 No. 31 e2200592119 https://doi.org/10.1073/pnas.2200592119 1o f7RESEARCH ARTICLE |MICROBIOLOGY OPEN ACCESS
+Downloaded from https://www.pnas.org by "Gordon Library, WPI" on October 29, 2022 from IP address 130.215.9.35.
+vary each structural gene individually since it is ancestral to all
+currently circulating variants. For each combination of struc-
+tural proteins, we evaluated the luciferase expression in receiver
+cells, the expression level of the S and N proteins in packagingcells, and abundance of the S and N proteins and luciferaseRNA in the supernatant (Fig. 1 B–G).
+Weﬁrst examined the S genes of B.1, Delta, and Omicron
+variants using VLPs that otherwise contained B.1 gene versions.We found that relative to S-B.1 (identical to S-B.1.1) the Delta
+S-variant produced VLPs that were only 40% as infectious
+(Fig. 1 B). In contrast, the Omicron S gene in the context ofthe B.1 background generated higher VLP infectivity compared
+to ancestral S-B.1 (Fig. 1 B). Expression of S in packaging cells
+and supernatant (Fig. 1 FandGandSI Appendix , Fig. S1 ) was
+similar between these variants, suggesting that this discrepancyis due to intrinsic ef ﬁciency of the Omicron S protein when
+incorporated into VLPs. Interestingly, pseudotyped lentiviral
+particles show the opposite pattern of increased entry for
+S-Delta and reduced entry for S-Omicron ( SI Appendix , Fig.
+S2). In addition, the cleavage and processing of S also varied
+not only between different S-variants but also when coexpressed
+with different M and N variants (Fig. 1 FandG). These resultsM
+IRES
+E
+Luc
++PS293T293T 
+ACE2/TMPRSS2
+HO
+NS
+NS
+OH
+OSpikeNLightSC2-VLPsA
+B
+G FCD E
+Luc2α p24Supernatants
+SB1 DO B1 B1 B1 B1 B1 DO - -
+NB1 B1 B1 B11 DO B1 B1 DO - -
+MB1 B1 B1 B1 B1 B1 DODO - -
+EB1 B1 B1 B1 B1 B1 B1 O DO - -
+RNA (Northern)
+α N
+Cell lysates
+SB1 DO B1 B1 B1 B1 B1 DO
+NB1 B1 B1 B11 DO B1 B1 DO
+MB1 B1 B1 B1 B1 B1 DO
+ODO
+EB1 B1 B1 B1 B1 B1 B1 DO
+α Spike
+α N
+α GAPDH
+B1 B.1
+B11 B.1.1
+DD e l t a
+OO m i c r o nS
+S2}
+48
+25α SpikeS
+S2}
+~6kb kDa100180
+48
+~40kDa100180B.1
+B.1.1
+Delta
+Omicron02468
+1.0
+5.3
+3.7
+4.6Normalized
+Luminescence
+S-B.1
+S-Delta
+S-Om
+noS0.00.51.01.5
+1.0
+0.2
+1.0
+7.8e-003Normalized
+Luminescence
+N-B.1
+N-B.1.1
+N-Delta
+N-Omicron010203040
+1.0
+5.8
+23.5
+26.0Normalized
+Luminescence
+M/E-B.1
+M/E-Delta
+M/E-Omicron
+M-Omicron
+E-Omicron0.00.51.01.5
+1.00
+0.33
+0.25
+1.05
+0.29Normalized
+Luminescence
+Fig. 1. Omicron structural gene variants alter infectivity of SC2-VLPs. ( A) Sequence differences in genes encoding the structural proteins S, E, M, and
+N between B.1, B.1.1, Delta, and Omicron viral variants (vertical lines); Om icron-Class 1 and Omicron-Class 3 mutations were created for this study.
+(B) Work ﬂow for generating SC2-VLPs and testing their ability to transduce ACE2- and TMPRSS2-expressing 293T cells; SC2-VLPs assembled in packaging cells
+transformed with plasmids encoding S, E, M, and N genes as well as a luciferase mRNA fused to the SARS-CoV-2 packaging signal are tested for receptor-
+mediated cell transduction using a luciferase detection assay. ( C–E) Luminescence measured as a function of VLPs generated with the component protein
+shown, in a background of B.1 genes (see text for details). ( F) Western blot of cell lysates from cells transfected to generate VLPs stained for N, S, and
+GAPDH as a loading control. ( G) Western and Northern blots of particles puri ﬁed from supernatants by 20% sucrose cushion ultracentrifugation. Staining for
+N, S, and p24 in the Western blots. Note: lentivirus was added to all supernatants as a loading control for puri ﬁcation. Luc2 mRNA was stained for with a
+32P-labeled probe targeting the luciferase gene. Quanti ﬁcation and statistical comparison of blots in Fand Gare shown in SI Appendix , Fig. S1 .
+2o f7 https://doi.org/10.1073/pnas.2200592119 pnas.org
+Downloaded from https://www.pnas.org by "Gordon Library, WPI" on October 29, 2022 from IP address 130.215.9.35.
+suggest that viral genetic context including proteolytic process-
+ing and secretion pathway in ﬂuences S gene effects on the abil-
+ity of viral particles to transduce cells, and also that some S
+gene mutations such as those in Omicron may dominate cellinfectivity outcomes.
+We next compared the effects of N variants on infectivity of
+VLPs generated using B.1 genes. The N gene was found previ-ously to have a pronounced in ﬂuence on infectivity and RNA
+packaging ef ﬁciency (3). Required for replication, RNA binding,
+packaging, stabilization, and release, the N protein includes a
+seven-amino-acid mutational hotspot (N:199 to 205) in a regionlinking the N- and C-terminal domains. Notably, B.1.1, Delta,and Omicron, but not B.1, include mutations at R203 that were
+found previously to enhance VLP infectivity and RNA packaging
+(SI Appendix ,T a b l eS 2 ) (3). The N-Delta and N-Omicron var-
+iants generated signi ﬁcantly higher N expression in the superna-
+tant with higher RNA packaging (Fig. 1 GandSI Appendix ,F i g .
+S1) and infectivity that was enhanced relative to both B.1 and
+B.1.1 variants, consistent with the N protein ’sp l a y i n gac e n t r a l
+role in viral packaging and cell transduction ef ﬁciency (Fig. 1 C).
+O m i c r o nc o n t a i n st h r e em u t a t i o n si nt h eMp r o t e i na n do n e
+mutation in the E protein relative to B.1/Delta. VLPs generatedusing either M or E protein from Omicron, but with B.1 versionsof the other structural components, showed levels of infectivity that
+were reduced relative to those measured for the B.1 VLPs (Fig. 1 D
+andSI Appendix ,T a b l e sS 3a n dS 4 ). In particular, these mutations
+r e d u c et h ea s s e m b l yo fV L P sa ss e e nb yt h er e d u c e di n t e n s i t yo fNand S in the supernatant (Fig. 1 FandG). This ﬁnding suggests
+that some Omicron mutations reduce particle assembly and may
+reduce viral ﬁtness. To test if these effects are mitigated by muta-
+tions in other structural proteins, we also tested VLPs generatedusing the combined structural protein mutations for each variant.We found that Omicron VLPs were overall 4.6 times as infectious
+as VLPs generated using B.1 structural proteins but similar in infec-
+tivity to VLPs generated using Delta or B.1.1 structural proteins,consistent with observed enhancements (S and N) and de ﬁcits (M
+and E) seen in the individual proteins (Fig. 1 E).
+We next tested the VLP neutralization capability of antisera
+collected from 38 individuals 4 to 6 wk postvaccination with
+Pﬁzer/BioNTech, Moderna, or Johnson & Johnson vaccines,
+or convalescent sera from unvaccinated COVID-19 survivors.The antisera were collected from participants aged 18 to 50 yenrolled in a clinical trial led by Curative, and SARS-CoV-2immunoglobulin G (IgG) antibodies were quanti ﬁed with an
+enzyme-linked immunosorbent assay (ELISA) ( SI Appendix ,
+Table S5 ). The serum was heat-inactivated at 56 °C for 30 min
+and then incubated with VLPs at dilutions 1/20, 1/80, 1/320,1/1280, 1/5120, and 1/20,480 for a total of six dilutions. VLPs
+were generated with B.1 structural genes except for N-R203M,
+which we previously found to enhance assembly and increasethe dynamic range of our neutralization assay. In initial experi-ments using B.1 spike we found that sera from both P ﬁzer/
+BioNTech- and Moderna-vaccinated individuals yielded high
+neutralization titers with medians of 549 and 490, respectively(Table 1). Sera from Johnson & Johnson –vaccinated and con-
+valescent patients had lower titers with median of 25 and 35,respectively (Table 1), matching the low levels of SARS-CoV-2
+IgG antibodies detected in this cohort ( SI Appendix , Table S5 ).
+We also checked whether neutralizing titers as measured byVLPs correlated with titers measured using virus isolates orS-protein IgG measured by ELISA. We found that titers mea-
+sured using VLPs correlated well with neutralization of virus
+isolates with r
+2=0.98 but did not correlate with anti-S IgG,
+suggesting that some subjects may generate antibodies thatbind but do not neutralize SARS-CoV-2 ( SI Appendix , Figs. S3
+and S4 ).
+We then substituted the S-gene with S-variants previously
+tested, as they have varying mutations in the receptor bindingdomain (RBD) known to affect neutralization. We tested the
+neutralization capacity of each patient ’s serum against VLPs
+representing S from B.1, Delta, or Omicron viral variants (Fig.
+2A–D). There was a pronounced decrease of 15- to 18-fold in
+potency against Omicron, with intermediate effects on Delta,for the antisera from mRNA vaccine recipients (Fig. 2 A–D
+and Table 1). Limited ef ﬁcacy was detected for any of the sera
+from those vaccinated with the adenovirus-based Johnson &
+Johnson vaccine and variable neutralization was observed for
+COVID-19 survivors (Table 1). We next examined whetherClass 1 or Class 3 mutations were responsible for reduced neu-
+tralization in patient anti sera. For both S-OmC1 and OmC3
+cases we found intermediate neutralization, suggesting that neu-
+tralization escape from patient sera is a function of several
+mutations acting in concert ( SI Appendix , Fig. S5 A–D). Third-
+dose vaccination with the P ﬁzer vaccine increased titers against
+all variants including Omicron (Fig. 2 E–H,SI Appendix , Fig.
+S5E–G, and Table 2) as measured at 16 and 21 d after the
+third dose. All eight sera from this cohort had low (median 64)
+neutralization titers against Omicron 21 d after their thirddose, while only one out of eight had detectable neutralization
+prior to boosting (Fig. 2 G). However, even after boosting we
+observed eightfold reduced neutralizing titers against Omicron
+compared to B.1, suggesting that Omicron is still able to par-
+tially escape neutralizing antibodies induced by vaccinationwith the ancestral S-B.1 (Fig. 2 Hand Table 2).
+We next tested whether therapeutic and commercially avail-
+able monoclonal antibodies could neutralize VLP entry medi-
+ated by the ancestral SARS-CoV-2 S protein or the S protein
+from Omicron. Therapeutic antibodies casirivimab (Regeneron),Table 1. Neutralization titers of vaccinated or convalescent
+individuals against S-variants
+Numbers indicate dilution factors that yield 50% neutralization. Higher numbers indicate
+better neutralization. Red ﬁll indicates undetectable neutralization at the lowest (1/20) dilution.
+PNAS 2022 Vol. 119 No. 31 e2200592119 https://doi.org/10.1073/pnas.2200592119 3o f7
+Downloaded from https://www.pnas.org by "Gordon Library, WPI" on October 29, 2022 from IP address 130.215.9.35.
+imdevimab (Regeneron), sotrovimab (Vir/GSK), and bebtelovi-
+mab (AbCellera/Eli Lilly) all demonstrated excellent neutralizingIC
+50s (concentrations that inhibit response by 50%) against B.1 S
+protein, but only sotrovimab and bebtelovimab neutralized Omi-
+cron S protein (Fig. 3). Interestingly, sotrovimab was less effectiveagainst Delta and Omicron compared to B.1, while the recentlyauthorized bebtelovimab had potent neutralization against all var-iants with an IC
+50of less than 10 ng/mL.
+We also generated S-variants containing Omicron mutations
+outside the RBD but containing only mutations within the
+RBD previously shown to inhibit binding by Class 1 (417N,
+496S, 498R, 501Y) or Class 3 (440K, 446S, 496S, 498R) anti-bodies ( SI Appendix , Table S1 ) (4). Previous studies have
+shown that the binding of casirivimab and imdevimab and
+other Class 1 and Class 3 antibodies is particularly sensitive to
+mutations at these residues. We generated VLPs using OmC1or OmC3 S genes and evaluated the neutralization of casirivi-mab and imdevimab monoclonal antibodies (Table 3). Strik-ingly, although both antibodies had robust neutralization
+activity against B.1.1 or Delta VLPs, no activity was detected
+for either one against Omicron VLPs. We found that casirivi-mab was able to neutralize OmC3 but not OmC1, andimdevimab was able to neutralize OmC1 but not OmC3. This
+suggests that the six mutations within the Omicron RBD
+(K417N, N440K, G446S, G496S, Q498R, N501Y) are largely
+responsible for the failure of these monoclonal antibodies toneutralize Omicron S.Pre
+Post-boost (~16d)
+Post-boost (~21d)Pre
+Post-boost(~16d)
+Post-boost(~21d)
+Pre
+Post-boost (~16d)
+Post-boost(~21d)ABCD
+EFGHB.1
+Delta
+Omicron2064020480Pfizer/BioNTechNT50*****
+B.1
+Delta
+Omicron2064020480ModernaNT50ns****
+B.1
+Delta
+Omicron2064020480J&JNT50 **ns
+B.1
+Delta
+Omicron2064020480Post covidNT50nsns
+2064020480B.1NT50***
+2064020480DeltaNT50****
+2064020480OmicronNT50****
+B.1
+Delta
+Omicron2064020480Post-boost (~21d)NT50ns***
+Fig. 2. Antiserum neutralization of VLPs generated with different S genes. ( A–D) Fifty percent neutralization titers of sera isolated from individuals vacci-
+nated using P ﬁzer/BioNTech, Moderna, and Johnson & Johnson vaccines or from convalescent COVID-19 patients. Neutralization curves were determined
+using VLPs with either S-B.1, S-Delta, or S-Omicron. ( E–H) Neutralization titers of sera collected before and after third dose vaccination from individuals
+receiving the P ﬁzer/BioNTech vaccine. * P<0.05, ** P<0.01, *** P<0.001, **** P<0.0001 evaluated using Friedman ’s exact test for repeated measures. ns,
+not statistically signi ﬁcant.
+Table 2. Neutralization titers against S-variants of
+individuals vaccinated with two or three doses of the
+Pﬁzer vaccine
+Each row represents one subject. Numbers indicate dilution factors that yield 50%
+neutralization. Higher numbers indicate better neutralization. Red ﬁll indicates
+undetectable neutralization at the lowest (1/20) dilution. Last three columns indicate the
+time elapsed between doses for each individual.
+4o f7 https://doi.org/10.1073/pnas.2200592119 pnas.org
+Downloaded from https://www.pnas.org by "Gordon Library, WPI" on October 29, 2022 from IP address 130.215.9.35.
+Discussion
+In summary, SARS-CoV-2 VLPs that transduce reporter mRNA
+into ACE2- and TMPRSS2-expressing cells enabled a rapid and
+comprehensive comparison of structural protein (S, E, M, N) vari-
+ant effects on both particle infectivity and antibody neutralization.Using this system, we found that the Omicron versions of both Sand N enhance VLP infectivity relative to ancestral viral variants
+including Delta. Omicron maintains mutations in the N muta-
+tional hotspot that were shown previously to confer markedlyenhanced VLP infectivity (3). Surprisingly, Omicron M and E
+gene variants appear to compromise infectivity, at least in the con-
+text of ancestral versions of the other structural genes, implyingthat genes including S and N override less- ﬁtv e r s i o n so fM ,E ,
+and perhaps other genes in the intact virus. Monitoring S and N
+gene evolution and determining why the N gene has such a pro-nounced effect on viral particle infectivity may enable develop-
+ment of better diagnostics, more broadly neutralizing vaccine
+development, and potentially new therapeutics.
+Notably, all antisera from vaccinated individuals or convales-
+cent sera from COVID-19 survivors showed reduced neutraliza-
+tion of Omicron VLPs relative to ancestral variants including
+Delta, with mRNA vaccines far surpassing a viral vector vaccineor natural infection in initial potency. These data do not account
+for T cell-based immunity induced by vaccination or prior infec-
+tion. We also found that Omicron S mutations interfere withClass 1 and Class 3 monoclonal antibody binding, renderingsome commercially available therapeutic antibodies completely
+ineffective. These results suggest that prior to vaccine boosting,antibodies produced by mRNA vaccines have 15- to 18-fold
+reduced ef ﬁcacy against Omicron, and that the Johnson & John-
+son vaccine produces limited neutralizing antibodies against any
+SARS-CoV-2 variant. Booster shots increase neutralization titers
+against Omicron but the titers remain much lower than for previ-ous variants. Consistent with data from recent pseudovirus neu-
+tralization studies (5, 6), these ﬁndings support the use of mRNA
+vaccine boosters to enhance antibody-based protection againstOmicron infection, in lieu of vaccines tailored to Omicron itself.
+Our approach for analyzing the impact of mutations in structural
+proteins has a few limitations. We assume that mutations in the
+structural proteins act independently of each other and of the othernonstructural genes of the virus. Our results are consistent with
+a d d i t i v ee f f e c t so fN ,M ,E ,a n dSm u t a t i o n s ,b u tt h i sm a yn o tb e
+the case when combined with other viral proteins. It would beinteresting to see if similar results would be obtained in infectious
+clones incorporating the entire genome and testing these mutations
+combinatorially, but this is infeasible due to the large number of
+mutations. In addition, we cannot separate infectious VLPs from
+defective particles and exosomes, which may affect the interpreta-tions of our conclusions regarding the compositions of VLPs.
+Materials and Methods
+Cloning for Plasmids Encoding Structural Proteins. pcDNA3.1 backbone
+plasmids were generated encoding N and M-IRES-E. Sequences for E, M, and Nwere PCR-ampli ﬁed from codon-optimized plasmids, gifts from Nevan Krogan
+(UCSF, San Francisco, CA, USA; Addgene plasmid nos. 141385, 141386, and141391). pcDNA3.1-SARS2-Spike was a gift from Fang Li (University of Minnesota,MN, USA; Addgene plasmid no. 145032). Site-directed mutagenesis (NEB) was
+used to remove the C9-tag and introduce the D614G mutation. Delta and Omi-
+cron structural protein were cloned ligating eBlocks (IDT) gene fragments follow-ing NEBuilder HiFi DNA (NEB E2621L) Assembly Reaction Protocol.
+SC2-VLP Production. For a 24-well, plasmids CoV2-N (0.67), CoV2-M-IRES-E
+(0.33), CoV-2- Spike (0.006), and Luc-PS9 (1.0) at indicated mass ratios for a total of0.1 1 10 100 1000 100000.00.51.01.5Casirivimab
+Antibody Conc [ng/mL]Normalized
+LuminescenceB1
+Delta
+Omicron
+0.1 1 10 100 1000 100000.00.51.01.5Imdevimab
+Antibody Conc [ng/mL]Normalized
+LuminescenceB1
+Delta
+Omicron
+1 10 100 1000 10000 1000000.00.51.01.5MM43
+Antibody Conc [ng/mL]Normalized
+LuminescenceB1
+Delta
+Omicron
+1 10 100 1000 10000 1000000.00.51.01.5Sotrovimab
+Antibody Conc [ng/mL]Normalized
+LuminescenceB1
+Delta
+Omicron
+1 10 100 1000 10000 1000000.00.51.01.5Bebtelovimab
+Antibody Conc [ng/mL]Normalized
+LuminescenceB1
+Delta
+OmicronC B A
+F E D
+B.1 Delta Omicron
+Casirivimab 36 20 >10000
+Imdevimab 50 129 >10000
+MM43 697 547 >10000Sotrovimab 134 >10000 660Bebtelovimab <10 <10 <10IC50 (ng/mL)
+Fig. 3. Monoclonal antibody neutralization of VLPs generated with different S genes. Neutralization curves and IC 50values of (A) casirivimab, (B) imdevi-
+mab, (C) MM43, (D) Sotrovimab, (E) Bebtelovimab against the S-variants: S-B.1, S-Delta, S-Omicron. ( F)I C 50values for each monoclonal antibody.
+Table 3. IC 50of casirivimab and imdevimab against
+S-variants (nanograms per milliliter)
+Smaller numbers indicate better neutralization. Red ﬁll indicates undetectable
+neutralization in our assay of >1,000 ng/mL.
+PNAS 2022 Vol. 119 No. 31 e2200592119 https://doi.org/10.1073/pnas.2200592119 5o f7
+Downloaded from https://www.pnas.org by "Gordon Library, WPI" on October 29, 2022 from IP address 130.215.9.35.
+1μgo fD N Aw e r ed i l u t e di n5 0 μL Opti-MEM. Three micrograms of PEI (polyethyle-
+neimine) was diluted in 50 μL Opti-MEM and added to plasmid dilution quickly to
+complex the DNA. Transfection mixture was incubated for 20 min at room tempera-
+ture and then added dropwise to 293T cells in 0.5 mL of Dulbecco ’sm o d i ﬁed Eagle ’s
+medium (DMEM) containing fetal bovine serum (FBS) and penicillin/streptomycin.
+Media was changed after 24 h of transfection, and at 48 h posttransfection VLP-
+containing supernatant was collected and ﬁltered using a 0.45- μms y r i n g e ﬁlter. For
+other culture sizes, the mass of DNA used was 1 μg for 24-well, 4 μg for 6-well, 20
+μg for 10-cm plate, and 40 μg for 15-cm plate. Opti-MEM volumes were 100 μL,
+400μL, 1 mL, and 3 mL, respectively, and PEI was always used at 3:1 mass ratio.
+Western Blot. For Western blots of lysates, media was removed and cells were
+rinsed with phosphate-buffered saline (PBS). Cells were then lysed for 20 min in
+N-PER lysis buffer containing Halt protease and phosphatase inhibitor mixture.
+For Western blots of ultracentrifuge-concentrated VLPs, 10 mL of VLP supernatant
+from a 10-cm plate was pelleted (28,000 rpm, 2 h, SW41 Ti, 1 mL 20% sucrose
+cushion), the supernatant was discarded, and VLPs were resuspended in 50 μL
+of PBS. Fifteen microliters of concentrated VLPs were used to Western blot.
+Laemmli loading buffer (1 ×ﬁnal) and dithiothreitol (DTT, 40 mM ﬁnal) were
+added to lysates or VLP solution and heated at 95 °C for 5 min to lyse VLPs and
+denature proteins. Samples were loaded on to 4 to 20% gradient gels (Bio-Rad)
+and transferred to a poly(vinylidene di ﬂuoride) membrane (Bio-Rad). Membrane
+was blocked in 3% BSA (N-staining) or 10% NFDM (all others) and stained with
+primary antibody: anti-N (Abcam ab273434, 1:500 dilution), anti-S (Abcam
+ab272504, 1:1,000), anti-GAPDH (Santa Cruz sc-365062, 1:1,000), or anti-p24
+(Sigma, 1:2,000) for 2 h at room temperature. Blots were rinsed with TBS-T three
+times for 10 min each and stained with secondary antibody (Abcam ab205719,mouse, 1:5,000), and imaged using a Pierce chemiluminescence kit.
+Northern Blot. VLPs collected from a 10-cm plate were concentrated by ultracentri-
+fugation through a 20% sucrose cushion (28,000 rpm, 2 h, SW41 Ti). The superna-
+tant was discarded and VLPs were resuspended in 50 μL of PBS. Twenty microliters
+of concentrated VLPs were used for Northern blotting. VLPs were lysed by adding
+500μL of TRIzol (Sigma) and RNA was extracted by phase separation, precipitated
+with isopropanol with GlycoBlue, and washed with 75% ethanol. RNA was resus-
+pended in 30 μL of water, added to 30 μL2×RNA Loading Dye (NEB) and dena-
+tured at 65 °C for 15 min then loaded onto a 1% agarose gel containing 1 ×MOPS
+and 4% formaldehyde. Samples were run at room temperature for 12 h at 20 V and
+transferred by capillary action to nylon membrane. The membrane was hybridized
+with a32P-labeled luciferase DNA probe (Prime-a-Gene Labeling System; Promega)
+and visualized using a phosphoscreen on a Typhoon imager (GE).
+Quantification of Western and Northern Blots. Images were analyzed
+using Fiji. First, the background was subtracted using a 50-pixel-radius rolling
+ball and then total intensities were measured for each band. In the case of S pro-
+tein, intensity of the bands corresponding to complete S and S2 were added
+together. Intensities of each band were ﬁrst normalized based on the brightness
+of each blot and then normalized to the “All B.1 ”condition. Data were analyzed
+in GraphPad Prism using one-way ANOVA with repeated measures comparing
+each condition to the “All B.1 ”condition and using Dunnett ’s correction.
+Luciferase Readout. In each well of a clear 96-well plate 50 μLo fS C 2 -
+VLP –containing supernatant was added to 50 μL of cell suspension containing
+50,000 receiver cells (293T ACE2/TMPRSS2). Cells were allowed to attach and
+take up VLPs overnight. The next day, supernatant was removed and cells were
+lysed in 20 μL passive lysis buffer (Promega) for 15 min at room temperature
+with gentle rocking. Lysates were transferred to an opaque white 96-well plate
+and 30 μL of reconstituted luciferase assay buffer was added and mixed with
+each lysate. Luminescence was measured immediately after mixing using a Tecan
+plate reader with no attenuation and a luminescence integration time of 1 s.
+Cell Lines. Cells were maintained in a humidi ﬁed incubator at 37 °Ci n5 %C O 2
+in the indicated media and passaged every 3 to 4 d. The 293T cells were obtained
+from ATCC and maintained in DMEM with 10% FBS and 1% penicillin/streptomy-
+cin. The 293T cells stably coexpressing ACE2 and TMPRSS2 were generated
+through sequential transduction of 293T cells with TMPRSS2-encoding (generated
+using Addgene plasmid no. 170390, a gift from Nir Hacohen, Broad Institute,
+Cambridge, MA, USA) and ACE2-encoding (generated using Addgene plasmid
+no. 154981, a gift from Sonja Best, Rocky Mountain Labs, Hamilton, MT, USA)lentiviruses and selection with hygromycin (250 μg/mL) and blasticidin
+(10μg/mL) for 10 d, respectively. ACE2 and TMPRSS2 expression was veri ﬁed by
+W e s t e r nb l o t .V e r os t a b l yc o e x p r e s s i n gh u m a nA C E 2a n dT M P R S S 2c e l l s( g i f t e d
+from A. Creanga and B. Graham, NIH, Bethesda, MD) were maintained at 37 °C
+and 5% CO 2in DMEM (Gibco) supplemented with 10% fetal calf serum, 100 ug/
+mL penicillin and streptomycin (Gibco), and 10 μg/mL of puromycin (Gibco).
+VLP Neutralization Assay. Each heat-inactivated serum sample was serially
+diluted from 1:20 to 1:20,480 dilution in complete DMEM media prior to incu-
+bation (1 h at 37 °C) with 40 μL VLP with total volume of 50 μL, then plated
+onto receiver cells (50,000 293T ACE2-TMPRSS2 cells). Twenty-four hours later
+luciferase readout was taken. Neutralization (NT50) was estimated by interpolat-
+ing the dilution of serum at which 50% infectivity was reduced.
+Serum Samples. Serum samples from individuals not exposed to SARS-CoV-2
+(pre-COVID, control), exposed to SARS-CoV-2 (post-COVID), and those vaccinated
+with either two doses of elasomeran (Moderna), two doses of tozinameran (P ﬁzer/
+BioNTech) vaccine, or one dose of Johnson & Johnson vaccine were collected
+through a clinical trial led by Curative ( SI Appendix ,T a b l eS 5 ). Post-COVID samples
+reﬂect nonvaccinated participant samples that were collected within 4 to 6 wk of
+the original positive test and were negative by PCR at the time of serum collection.
+Serum from vaccinated participants was collected 4 to 6 wk postvaccination follow-
+ingﬁnal dose. The clinical trial protocol was approved by Advarra under
+Pro00054108 for a study designed to investigate immune escape by SARS-CoV-2
+variants. The trial has been submitted to the clinicaltrials.gov registry
+(NCT05171803, Unique Protocol ID: PTL-2021-0007). Sample specimens were col-
+lected from adult individuals aged 18 to 50 y who either had been vaccinated for
+COVID-19 and/or had a history of COVID-19. Vulnerable populations were excluded
+from enrollment. Patients signed consent forms held by Curative. Participants were
+enrolled from individuals that tested with Curative in Los Angeles County and were
+sent an institutional review board –approved email enrollment script. Those who
+were interested were contacted by the Curative Clinical Trials research team (CITI
+trained) and those who consented to the study were scheduled for sample collec-
+tion by a clinician who went to their residence. Participants underwent a standard
+venipuncture procedure. Brie ﬂy, licensed phlebotomists collected a maximum of
+15 mL whole blood. Once collected, the sample was left at ambient temperature
+for 30 to 60 min to coagulate then was centrifuged at 2,200 to 2,500 rpm for 15
+min at room temperature. Samples were then placed on ice until delivered to the
+laboratory site where the serum was aliquoted to appropriate volumes for storage
+at/C080°C until use. A quantitative SARS-CoV-2 IgG ELISA was performed on serum
+specimens (EuroImmun, Anti-SARS-CoV-2 ELISA [IgG], 2606-9621G, NJ). To quantify
+SARS-CoV-2 IgG antibodies, an S1-speci ﬁc monoclonal IgG antibody with no known
+cross-reactivity to the S2 domain of the spike protein was used as a reference anti-
+body. A standard curve was developed using a monoclonal IgG antibody targeting
+the S1 antigen of SARS-CoV-2 at different concentrations with a polynomial regres-
+sion curve- ﬁtting model. The standard curve was used to calculate the sample IgG
+antibody concentration. Serum samples were heat-inactivated at 56 °Cf o r3 0m i n
+prior to use in VLP assays. Pre-COVID sera was pooled into one sample.
+SARS-CoV-2 Culture. SARS-CoV-2/human/USA/USA-WA1/2020 (WA1) (BEI NR-
+52281), B.1.617.2 (BEI NR-55611), and B.1.1.529 (California Department of
+Health) were used for serum virus neutralization. The virus infection experiments
+were performed in a Biosafety Level 3 laboratory. Working stocks of SARS-CoV-2
+were made in Vero-TMPRSS2 cells and were stored at /C080°C until used.
+Virus Neutralization Assay. Serum dilutions (50 μL) of 1:5, 1:15, 1:45,
+1:135, 1:405, and 1:1,215 were prepared in serum-free DMEM. The dilutions
+were separately added with 50 plaque-forming units (50 μL) of SARS-CoV-2
+WA1, B.1.617.2, or B.1.1.529. The mixture was mixed gently and incubated at
+37°C for 30 min, followed by a plaque assay.
+Plaque Assays. Vero-TMPRSS2 were seeded and incubated overnight. The cells
+were inoculated with the neutralized inoculum in serum-free DMEM. After the 1-h
+absorption period, the media in the wells was overlaid with 2.5% Avicel (Dupont,
+RC-591). After 72 h, the overlay was removed, the cells were ﬁxed in 10% formalin
+for 1 h and stained with crystal violet for visualization of plaque-forming units.
+Data Availability. All study data are included in the article and/or
+SI Appendix .
+6o f7 https://doi.org/10.1073/pnas.2200592119 pnas.org
+Downloaded from https://www.pnas.org by "Gordon Library, WPI" on October 29, 2022 from IP address 130.215.9.35.
+ACKNOWLEDGMENTS. We thank members of the J.A.D. and M.O. laboratories
+for helpful discussions. This project was funded by a grant from the National
+Institutes of Health (R21AI59666) and by support from the Howard Hughes
+Medical Institute and the Gladstone Institutes. A.M.S. acknowledges the support
+of the Natural Sciences and Engineering Research Council of Canada (NSERC
+PDF-533021-2019) and I.P.C. support from the NIH (F31 AI164671-01).
+Author af ﬁliations:aGladstone Institutes, San Francisco, CA 94158;bInnovative
+Genomics Institute, University of California, Berkeley, CA 94720;cSchool of Medicine,
+Vanderbilt University, Nashville, TN 37232;dCurative Inc., San Dimas, CA, 91773;
+eDepartment of Medicine, University of California, Los Angeles, CA 90095;fDepartment
+of Medicine, University of California, San Francisco, CA 94143;gChan Zuckerberg
+Biohub, San Francisco, CA 94158;hDepartment of Molecular and Cell Biology,University of California, Berkeley, CA 94720;iHHMI, University of California, Berkeley,
+CA 94720;jDepartment of Chemistry, University of California, Berkeley, CA 94720;
+kMolecular Biophysics and Integrated Bioimaging Division, Lawrence Berkeley National
+Laboratory, Berkeley, CA 94720; andlCalifornia Institute for Quantitative Biosciences
+(QB3), University of California, Berkeley, CA 94720
+Author contributions: A.M.S., G.R.K., M.O., and J.A.D. designed research; A.M.S., A.C., T.Y.T.,
+I.P.C., M.M.K., B.S., P.-Y.C., R.S., and T.T. performed research; I.S., B.M., N.K., V.H., M.S., L.L.,M.B., F.T., and L.S. contributed new reagents/analytic tools; A.M.S. analyzed data; andA.M.S., L.S., M.O., and J.A.D. wrote the paper.
+Competing interest statement: A.M.S. and J.A.D. are inventors on a patent application ﬁled by
+the Gladstone Institutes and the University of California that covers the method andcomposition of SARS-CoV-2 VLP preparations for RNA transduction and expression in cells.
+J.A.D. is also a cofounder of Caribou Biosciences, Editas Medicine, Scribe Therapeutics, Intellia
+Therapeutics, and Mammoth Biosciences. J.A.D. is a scienti ﬁc advisory board member of
+Vertex, Caribou Biosciences, Intellia Therapeutics, Scribe Therapeutics, Mammoth Biosciences,Algen Biotechnologies, Felix Biosciences, The Column Group, and Inari. J.A.D. is Chief ScienceAdvisor to Sixth Street, a Director at Johnson & Johnson, Altos and Tempus, and has researchprojects sponsored by Biogen, P ﬁzer, AppleTree Partners, and Roche.
+1. K. H. D. Crawford et al. , Protocol and reagents for pseudotyping lentiviral particles with SARS-CoV-2
+spike protein for neutralization assays. Viruses 12, E513 (2020).
+2. J. A. Plante et al. , Spike mutation D614G alters SARS-CoV-2 ﬁtness. Nature 592, 116 –121 (2021).
+3. A. M. Syed et al. , Rapid assessment of SARS-CoV-2-evolved variants using virus-like particles. Science
+374, 1626 –1632 (2021).
+4. A. J. Greaney et al. , Complete mapping of mutations to the SARS-CoV-2 spike receptor-binding
+domain that escape antibody recognition. Cell Host Microbe 29,4 4 –57.e9 (2021).5. S. Cele et al. , SARS-CoV-2 Omicron has extensive but incomplete escape of P ﬁzer BNT162b2
+elicited neutralization and requires ACE2 for infection. medRxiv [Preprint]
+(2021). https://www.medrxiv.org/content/10.1101/2021.12.08.21267417v3
+(Accessed 27 June 2022).
+6. L. Lu et al. , Neutralization of SARS-CoV-2 Omicron variant by sera from BNT162b2 or
+Coronavac vaccine recipients. Clin. Infect. Dis. , 10.1093/cid/ciab1041
+(2021).
+PNAS 2022 Vol. 119 No. 31 e2200592119 https://doi.org/10.1073/pnas.2200592119 7o f7
+Downloaded from https://www.pnas.org by "Gordon Library, WPI" on October 29, 2022 from IP address 130.215.9.35.
