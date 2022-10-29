@@ -1,0 +1,27 @@
+KOL = {'gene_editing' : [
+                        'jenifer doudna',
+                        'Emmanuelle Charpentier',
+                        'feng zhang',
+                        'david liu',
+                        'martin jinek',
+                        'george church',
+                        'francisco mojica',
+                        'virginijus siksnys',
+                        'stanley qi',
+                        'matthew porteus' ],
+        'protein_purification' : [
+                        'andrew zydney',
+                        'DMF prazeres',
+                        'dirk grimm',
+                        'giorgio carta',
+                        'steven cramer'],
+        'spatial transcriptomics' : [
+                        'xiaowei zhuang',
+                        'long cai',
+                        'dylan cable',
+                        'fei chen',
+                        'evan murray',
+                        'vignesh shanmugam',
+                        'simon zhang',
+                        'michael diao']
+        }
