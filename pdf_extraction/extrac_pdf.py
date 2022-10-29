@@ -6,11 +6,7 @@ import json
 
 
 pp = pprint.PrettyPrinter(indent = 4)
-pdf_path = Path("../content/PDFs/gene_editing/doudna2022omicron.pdf")
 
-opener = open(pdf_path,"rb")
-
-pdf_file_reader = PyPDF2.PdfFileReader(opener)
 
 def pdf_info(read_pdf):
     """
@@ -36,6 +32,9 @@ if __name__ == "__main__":
     """
     Get the pdf details and print the Materials and Methods section
     """
+    pdf_path = Path("../content/PDFs/gene_editing/doudna2022omicron.pdf")
+    opener = open(pdf_path,"rb")
+    pdf_file_reader = PyPDF2.PdfFileReader(opener)
     pp.pprint(pdf_info(pdf_file_reader))
     text = pdf_text(pdf_file_reader)
 
