@@ -37,12 +37,13 @@ if __name__ == "__main__":
                     
 
     # Convert to a csv file
-    for product in products:
-        with open(f"analysis/{product}_citations_and_similarities.csv", 'w') as f:
-            f.write("Title,Citations,Similarities\n")
+    with open(f"analysis/citations_and_similarities.csv", 'w') as f:
+        f.write("Product,Title,Citations,Similarities\n")
+        for product in products:
             for title in publications_to_citations_and_similarities[product]:
-                f.write(f"\"{title}\",\"{publications_to_citations_and_similarities[product][title]['citations']}\",\"{publications_to_citations_and_similarities[product][title]['similarities']}\"\n")
+                f.write(f"\"{product}\",\"{title}\",\"{publications_to_citations_and_similarities[product][title]['citations']}\",\"{publications_to_citations_and_similarities[product][title]['similarities']}\"\n")
     
+
     # publications_to_citations_and_similarities_sorted = {}
     # # Sort the publications by the number of citations
     # for product in products:
