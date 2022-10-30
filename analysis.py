@@ -34,18 +34,27 @@ if __name__ == "__main__":
                     similarities = data[title][product]
                     print(similarities)
                     publications_to_citations_and_similarities[product][title] = {"citations": citations, "similarities": similarities}
-    # Sort the publications by the number of citations and the similarity
+    
+    publications_to_citations_and_similarities_sorted = {}
+    # Sort the publications by the number of citations
     for product in products:
-        for publication in publications_to_citations_and_similarities[product]:
+        # for publication in publications_to_citations_and_similarities[product]:
+            # print(publication)
+            # print(publications_to_citations_and_similarities[product][publication])
+            # print()
+        publications_to_citations_and_similarities_sorted[product] = sorted(publications_to_citations_and_similarities[product].items(), key=lambda x: x[1]["citations"], reverse=True)
+        for publication in publications_to_citations_and_similarities_sorted[product]:
             print(publication)
-            print(publications_to_citations_and_similarities[product][publication])
             print()
+        print()
+    
+    # Find the max 
 
     # Print the top 10 publications for each product
-    for product in products:
-        print(f"Top 10 publications for {product}")
-        for i, publication in enumerate(publications_to_citations_and_similarities[product]):
-            if i < 10:
-                print(f"\t{publication}: {publications_to_citations_and_similarities[product][publication]}")
-            else:
-                break
+    # for product in products:
+    #     print(f"Top 10 publications for {product}")
+    #     for i, publication in enumerate(publications_to_citations_and_similarities[product]):
+    #         if i < 10:
+    #             print(f"\t{publication}: {publications_to_citations_and_similarities[product][publication]}")
+    #         else:
+    #             break
