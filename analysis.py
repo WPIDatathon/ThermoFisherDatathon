@@ -34,21 +34,34 @@ if __name__ == "__main__":
                     similarities = data[title][product]
                     print(similarities)
                     publications_to_citations_and_similarities[product][title] = {"citations": citations, "similarities": similarities}
-    
-    publications_to_citations_and_similarities_sorted = {}
-    # Sort the publications by the number of citations
+                    
+
+    # Convert to a csv file
     for product in products:
-        # for publication in publications_to_citations_and_similarities[product]:
-            # print(publication)
-            # print(publications_to_citations_and_similarities[product][publication])
-            # print()
-        publications_to_citations_and_similarities_sorted[product] = sorted(publications_to_citations_and_similarities[product].items(), key=lambda x: x[1]["citations"], reverse=True)
-        for publication in publications_to_citations_and_similarities_sorted[product]:
-            print(publication)
-            print()
-        print()
+        with open(f"analysis/{product}_citations_and_similarities.csv", 'w') as f:
+            f.write("Title,Citations,Similarities\n")
+            for title in publications_to_citations_and_similarities[product]:
+                f.write(f"\"{title}\",\"{publications_to_citations_and_similarities[product][title]['citations']}\",\"{publications_to_citations_and_similarities[product][title]['similarities']}\"\n")
     
-    # Find the max 
+    # publications_to_citations_and_similarities_sorted = {}
+    # # Sort the publications by the number of citations
+    # for product in products:
+    #     # for publication in publications_to_citations_and_similarities[product]:
+    #         # print(publication)
+    #         # print(publications_to_citations_and_similarities[product][publication])
+    #         # print()
+    #     publications_to_citations_and_similarities_sorted[product] = sorted(publications_to_citations_and_similarities[product].items(), key=lambda x: x[1]["citations"], reverse=True)
+    #     for publication in publications_to_citations_and_similarities_sorted[product]:
+    #         print(publication)
+    #         print()
+    #     print()
+    
+    # # Find the max number of citations for each product
+    # max_citations = {}
+    # for product in products:
+    #     print(f"Processing {product}")
+    #     max_citations[product] = publications_to_citations_and_similarities[product]
+    #     print(max_citations[product])
 
     # Print the top 10 publications for each product
     # for product in products:
