@@ -1,4 +1,5 @@
-import json 
+import contextlib
+import json
 import os
 import sys
 import numpy as np
@@ -17,7 +18,7 @@ if __name__ == "__main__":
         product_corpus = json.load(f)
     products = list(product_corpus["products"].keys())
     print(products)
-    
+
 
     publications_to_citations_and_similarities = {}
     for product in products:
@@ -26,15 +27,20 @@ if __name__ == "__main__":
         for author in publications: 
             print(f"Processing {author}")
             for publication in publications[author]:
-                # print(f"Processing {publication}")
-                citations = publication["citations"]
-                similarities = data[publication]["similarities"]
-                publications_to_citations_and_similarities[product][publication] = {"citations": citations, "similarities": similarities}
-
+                title = publication["bib"]["title"]
+                print(f"Processing {title}")
+                citations = publication["num_citations"]
+                with contextlib.suppress(KeyError):
+                    similarities = data[title][product]
+                    print(similarities)
+                    publications_to_citations_and_similarities[product][title] = {"citations": citations, "similarities": similarities}
     # Sort the publications by the number of citations and the similarity
     for product in products:
-        publications_to_citations_and_similarities[product] = {k: v for k, v in sorted(publications_to_citations_and_similarities[product].items(), key=lambda item: (item[1]["citations"], item[1]["similarities"]), reverse=True)}
-    
+        for publication in publications_to_citations_and_similarities[product]:
+            print(publication)
+            print(publications_to_citations_and_similarities[product][publication])
+            print()
+
     # Print the top 10 publications for each product
     for product in products:
         print(f"Top 10 publications for {product}")

@@ -133,3 +133,4 @@ dmypy.json
 bio_embedding
 otro
 
+*.pickle
